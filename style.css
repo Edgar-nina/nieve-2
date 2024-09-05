@@ -1,0 +1,122 @@
+body {
+    background-color: #e0f7fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.muñeco {
+    position: relative;
+    width: 150px;
+    height: 350px;
+}
+.circulo {
+    position: absolute;
+    background-color: #ffffff;
+    border: 2px solid #cccccc;
+    border-radius: 50%;
+}
+.cabeza {
+    width: 80px;
+    height: 80px;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+}
+.cuerpo {
+    width: 120px;
+    height: 120px;
+    top: 120px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+}
+.base {
+    width: 150px;
+    height: 150px;
+    top: 240px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+}
+.button {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background-color: #000000;
+    left: 50%;
+    transform: translateX(-50%);
+    border: none;
+}
+.boton1 {
+    top: 170px;
+}
+.boton2 {
+    top: 200px;
+}
+.boton3 {
+    top: 230px;
+}
+.ojo {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #000000;
+    border: none;
+    top: 75px;
+}
+.ojo.left {
+    left: 35%;
+}
+.ojo.right {
+    left: 65%;
+}
+.nariz {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 12px solid #ff7043;
+    top: 90px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.sombrero {
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background-color: #000000;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.sombrero-top {
+    position: absolute;
+    width: 60px;
+    height: 40px;
+    background-color: #000000;
+    top: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.brazo {
+    position: absolute;
+    width: 60px;
+    height: 8px;
+    background-color: #8b4513;
+    top: 160px;
+}
+.brazo.left {
+    left: -60px;
+    transform: rotate(30deg);
+}
+.brazo.right {
+    right: -60px;
+    transform: rotate(-30deg);
+}
+.abajo{
+    margin-bottom: 100px;
+}
